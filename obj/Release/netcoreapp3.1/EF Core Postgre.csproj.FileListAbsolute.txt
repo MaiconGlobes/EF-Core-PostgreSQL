@@ -1,0 +1,34 @@
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\EF Core Postgre.exe
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\EF Core Postgre.deps.json
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\EF Core Postgre.runtimeconfig.json
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\EF Core Postgre.runtimeconfig.dev.json
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\EF Core Postgre.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\EF Core Postgre.pdb
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Humanizer.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Npgsql.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.AssemblyInfo.cs
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.csproj.CopyComplete
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.dll
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.pdb
+C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Release\netcoreapp3.1\EF Core Postgre.genruntimeconfig.cache
