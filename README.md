@@ -1,6 +1,6 @@
 # EFCorePostgre
 
-O Entity Framework Core é uma ferramnenta **ORM** (_Object-relational mapping_) que permite ao desenvolvedor trabalhar com dados relacionais na forma de objetos específicos.
+O Entity Framework Core é uma ferramenta **ORM** (_Object-relational mapping_) que permite ao desenvolvedor trabalhar com dados relacionais na forma de objetos específicos.
 Possui 3 maneiras de se trabalhar, sendo elas:
 - _Database First_
 - _Model First_
@@ -25,7 +25,7 @@ Após a instalação do banco de dados, o mesmo tem por padrão o database _post
 
 ![image](https://user-images.githubusercontent.com/79027384/162598041-ffd0acfd-695a-4fac-9f1e-74ceedb28126.png)
 
-Em Models se encontra as classes de entidades de relacionamento, contendo 3 classes que serão inseridas ao banco e uma classe abstrata (Pessoa) p/ ser usada nas heranças das demais classes.
+Em Models se encontra as classes de entidades de relacionamento, contendo 3 classes que serão inseridas ao banco e uma classe abstrata (Pessoa) para ser usada nas heranças das demais classes.
 
 ![image](https://user-images.githubusercontent.com/79027384/162598050-cdd430a6-0a7b-4786-b5f2-7bc2b7548e0f.png)
 
@@ -47,7 +47,7 @@ Após instalação dos pacotes, abrindo a pasta de _dependências_, pode ser vis
 
 ![image](https://user-images.githubusercontent.com/79027384/162598152-dea55097-94d3-4297-acb5-51d59831fefd.png)
 
-Conforme mencionado anteriormente nesse documento, os parãmetros de configuração do banco de dados pode ser configurado na classe **_Contexto_** conforme imagem:
+Conforme mencionado anteriormente nesse documento, os parâmetros de configuração do banco de dados pode ser configurado na classe **_Contexto_** conforme imagem:
 
 ![image](https://user-images.githubusercontent.com/79027384/162598164-8f1bd69a-6655-4c2f-b59a-7965824c7abf.png)
 
