@@ -29,13 +29,13 @@ Em Models se encontra as classes de entidades de relacionamento, contendo 3 clas
 
 ![image](https://user-images.githubusercontent.com/79027384/162598050-cdd430a6-0a7b-4786-b5f2-7bc2b7548e0f.png)
 
-Para uso do EF Core, faz se necessário a instalação dos pacotes do EF Core via NuGet. Foi usado a versão 5.0.0, porém pode se usar outras versões.
+Para uso do EF Core, faz se necessário o uso dos pacotes do EF Core via NuGet. Os pacotes necessários já estão inclusos no projeto na versão 5.0.0, porém pode se usar outras versões.
 
 ![image](https://user-images.githubusercontent.com/79027384/162598082-e730b8ad-3833-470b-9072-06bad5f48809.png)
 
 ![image](https://user-images.githubusercontent.com/79027384/162598109-e9ad2980-af90-4902-ad42-569ec8661eb7.png)
 
-Instale os seguintes pacotes:
+Caso queira alterar ou instalar novos pacotes instale:
 - _Microsoft.EntityFrameworkCore_
 - _Microsoft.EntityFrameworkCore.Design_
 - _Microsoft.EntityFrameworkCore.Tools_
