@@ -56,7 +56,7 @@ Conforme mencionado anteriormente nesse documento, os parâmetros de configuraç
 Com o entity Framework, a criação das entidades do banco é feita através de comandos, usando o console do NuGet coforme imagem:
 ![image](https://user-images.githubusercontent.com/79027384/162646558-2a2bc1ff-9e0f-4348-9ddd-dc22a7872eec.png)
 
-Antes de criar as entidades no banco é nesessário criar os _Migrations_ que nada mais são que, dados e métodos de relação com o banco. Para tal execute os comando abaixo:
+Antes de criar as entidades no banco é nesessário criar os _Migrations_ que nada mais são do que dados e métodos de relação e migração com o banco. Para tal execute os comando abaixo:
 - _dotnet tool install --global dotnet-ef_
 - _dotnet ef migrations add InitialCreate_
 - _dotnet ef database update_
