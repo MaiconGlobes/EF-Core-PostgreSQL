@@ -64,4 +64,5 @@ Antes de criar as entidades no banco é nesessário criar os _Migrations_ que na
 Para demais comandos e aprimoramento em seus estudos, vide as documentações da EF Core e postgreSQL:
 
 https://docs.microsoft.com/pt-br/ef/
+
 https://www.npgsql.org/efcore/index.html
