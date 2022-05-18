@@ -32,3 +32,37 @@ C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Debug\netcoreapp3.1\EF Cor
 C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Debug\netcoreapp3.1\EF Core Postgre.dll
 C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Debug\netcoreapp3.1\EF Core Postgre.pdb
 C:\Users\Usuario\Documents\GitHub\EF-Core-Postgre\obj\Debug\netcoreapp3.1\EF Core Postgre.genruntimeconfig.cache
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\EF Core Postgre.exe
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\EF Core Postgre.deps.json
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\EF Core Postgre.runtimeconfig.json
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\EF Core Postgre.runtimeconfig.dev.json
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\EF Core Postgre.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\EF Core Postgre.pdb
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\GIT\EFCorePostgre\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.csproj.AssemblyReference.cache
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.AssemblyInfoInputs.cache
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.AssemblyInfo.cs
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.csproj.CoreCompileInputs.cache
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.csproj.CopyComplete
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.dll
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.pdb
+C:\GIT\EFCorePostgre\obj\Debug\netcoreapp3.1\EF Core Postgre.genruntimeconfig.cache

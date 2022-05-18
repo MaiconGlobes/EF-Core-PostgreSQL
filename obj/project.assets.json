@@ -860,11 +860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\EF-Core-Postgre\\EF Core Postgre.csproj",
+      "projectUniqueName": "C:\\GIT\\EFCorePostgre\\EF Core Postgre.csproj",
       "projectName": "EF Core Postgre",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\EF-Core-Postgre\\EF Core Postgre.csproj",
+      "projectPath": "C:\\GIT\\EFCorePostgre\\EF Core Postgre.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\EF-Core-Postgre\\obj\\",
+      "outputPath": "C:\\GIT\\EFCorePostgre\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -929,7 +929,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

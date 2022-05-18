@@ -9,6 +9,8 @@ namespace EF_Core_Postgre.Src.Services
       public DbSet<Operador> OPERADOR { get; set; }
       public DbSet<Funcionario> FUNCIONARIO { get; set; }
 
+      public DbSet<Pessoa> PESSOA { get; set; }
+
       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql("Host=127.0.0.1;Database=postgres;Username=postgres;Password=root");
    }

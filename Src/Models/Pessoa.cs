@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EF_Core_Postgre.Src.Models
 {
+   [Table("PESSOA", Schema = "public")]
    abstract public class Pessoa
    {
       [Key]
@@ -19,7 +20,6 @@ namespace EF_Core_Postgre.Src.Models
       [MaxLength(10)]
       public string Telefone { get; set; }
 
-      [MinLength(11)]
       [MaxLength(11)]
       public string Celular { get; set; }
 
