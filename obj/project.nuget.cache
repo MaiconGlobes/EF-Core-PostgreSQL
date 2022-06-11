@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sT98mTETLFU1rQc1IfJIkmAJysMrm6t1D8E+s5ofSGjctpJ7lb+5hziMaLYSNq6cTsD8GVNSjkp43B+MPAYVYQ==",
+  "dgSpecHash": "OsLBVhhqfn2GNv0YiSaRcYm0YLjvGCdeWTjBA/qBDhlKSvXxyT9mRVuWLhvK8jKXy/CZrXtLiUuICjY5ji0+VQ==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\EFCorePostgre\\EF Core Postgre.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Documents\\GitHub\\EF-Core-PostgreSQL\\EF Core Postgre.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

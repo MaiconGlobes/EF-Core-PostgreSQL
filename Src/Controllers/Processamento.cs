@@ -1,18 +1,11 @@
-﻿using EF_Core_Postgre.Src.Models;
-using EF_Core_Postgre.Src.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
 
 namespace EF_Core_Postgre.Src.Controllers
 {
    public class Processamento
    {
       private static Processamento FInstancia;
-      private Contexto FContexto;
-      private Guid FId;
-      private string FNome;
+      private static readonly byte FOpcoesTeclado;
 
       /// <summary>
       /// Méododo estático p/ instanciação da classe com Design Pattern Singleton.
@@ -27,97 +20,78 @@ namespace EF_Core_Postgre.Src.Controllers
       }
 
       /// <summary>
-      /// Método construtor da classe.
+      /// Método p/ inserir registros de novos CLientes
       /// </summary>
-      private Processamento()
+      public void Executar()
       {
-         FContexto = new Contexto();
-      }
-
-      /// <summary>
-      /// Método privado p/ buscar IDs dos registros à serem manipulados
-      /// </summary>
-      /// <returns>True/False</returns>
-      private Boolean ListarRegistros()
-      {
-         Console.WriteLine("Listando dados...");
-
-         var items = FContexto.CLIENTE.OrderBy(x => x.Id).ToList();
-
-         if (items.Count > 0)
+         do
          {
-            foreach (var item in items)
+            Console.WriteLine("Selecione a opção desejada:\n1-Clientes\n2-Pedidos");
+
+            byte FOpcoesTeclado = byte.Parse(Console.ReadLine());
+
+            switch (FOpcoesTeclado)
             {
-               Console.WriteLine($"{item.Id} - {item.Nome}");
+               case 1:
+                  this.ExecutarCliente();
+                  break;
+               case 2:
+                  this.ExecutarPedido();
+                  break;
+               default:
+                  Console.Clear();
+                  break;
             }
 
-            Console.WriteLine("\n");
+         } while (FOpcoesTeclado < 3);
+      }
 
-            return true;
-         }
-         else
+      private void ExecutarCliente()
+      {
+         do
          {
-            Console.WriteLine("Não há registros p/ listar\n\n");
-            return false;
-         }
+            Console.WriteLine("Selecione a opção desejada:\n1-Inserir Cliente\n2-Listar Clientes\n3-Deletar Clientes\n0-Retornar");
+
+            byte FOpcoesTeclado = byte.Parse(Console.ReadLine());
+
+            switch (FOpcoesTeclado)
+            {
+               case 1:
+                  ClienteController.Instancia().InserirCliente();
+                  break;
+               case 2:
+                  ClienteController.Instancia().ListarClientes();
+                  break;
+               case 3:
+                  ClienteController.Instancia().DeletarClientes();
+                  break;
+               case 0:
+                  Console.Clear();
+                  return;
+            }
+
+         } while (FOpcoesTeclado < 4);
       }
 
-      public void InserirRegistro()
+      private void ExecutarPedido()
       {
-         Console.WriteLine("Digite um nome:");
+         do
+         {
+            Console.WriteLine("Selecione a opção desejada:\n1-Inserir Pedido\n2-Listar Pedidos\n3-Deletar Pedidos\n0-Retornar");
 
-         FNome = Console.ReadLine().ToString();
+            byte FOpcoesTeclado = byte.Parse(Console.ReadLine());
 
-         var cliente = new Cliente 
-         { 
-            Nome = FNome,
-            Email = $"{FNome}@entityframework.com",
-         };
+            switch (FOpcoesTeclado)
+            {
+               case 1:
 
-         FContexto.CLIENTE.Add(cliente);
-         FContexto.SaveChanges();
+                  break;
+               case 0:
+                  Console.Clear();
+                  return;
+            }
 
-         Console.WriteLine("Registro inserido com sucesso.\n\n");
-      }
-
-      public void AtualizarRegistro()
-      {
-         if (!ListarRegistros())
-            return;
-
-         Console.WriteLine("Digite o Id do registro que deseja atualizar:");
-
-         FId = Guid.Parse(Console.ReadLine());
-
-         Console.WriteLine("Digite o novo nome:");
-
-         FNome = Console.ReadLine().ToString();
-
-         var cliente = FContexto.CLIENTE.Single(b => b.Id == FId);
-
-         cliente.Nome = FNome;
-
-         FContexto.CLIENTE.Update(cliente);
-         FContexto.SaveChanges();
-
-         Console.WriteLine("Registro atualizado com sucesso.\n\n");
-
-      }
-      public void DeletarRegistro()
-      {
-         if (!ListarRegistros())
-            return;
-
-         Console.WriteLine("Digite o Id do registro que deseja deletar:");
-
-         FId = Guid.Parse(Console.ReadLine());
-
-         var cliente = FContexto.CLIENTE.Single(b => b.Id == FId);
-
-         FContexto.CLIENTE.Remove(cliente);
-         FContexto.SaveChanges();
-
-         Console.WriteLine("Registro deletado com sucesso.\n\n");
+         } while (FOpcoesTeclado < 4);
       }
    }
 }
