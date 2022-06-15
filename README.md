@@ -19,9 +19,9 @@ Ao baixar o projeto, o mesmo virá sem dependências do EF tendo somente as estr
 ![image](https://user-images.githubusercontent.com/79027384/162597957-3f6f11f8-2a5a-4d92-a876-712f177da01f.png)
 
 A pasta **_Database_** não virá com o projeto, pois a mesma se trata de um banco de dados Postgre embarcado. Para que o projeto funcione será necessário a instalação do **__Postgre v.14__**.
-Após a instalação do banco de dados, o mesmo tem por padrão o database _postgre_ e o shema _public_. Caso já tenha um banco com outro nome de database e schema, as configurações do provedor devem ser modificados na classe _Contexto.cs_ da pasta _Models_.
+Após a instalação do banco de dados, o mesmo tem por padrão o database _postgre_ e o shema _public_. Caso já tenha um banco com outro nome de database e schema, as configurações do provedor devem ser modificados na classe _Contexto.cs_ da pasta _Services_.
 
-![image](https://user-images.githubusercontent.com/79027384/162598017-9dae250d-d243-42df-9d4e-cd18c1a6c5bc.png)
+![image](https://user-images.githubusercontent.com/79027384/173959743-269de3b7-4e05-43fb-b3aa-7cdb89f5e8de.png)
 
 ![image](https://user-images.githubusercontent.com/79027384/162598041-ffd0acfd-695a-4fac-9f1e-74ceedb28126.png)
 
