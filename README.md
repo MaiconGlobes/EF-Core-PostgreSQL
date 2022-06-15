@@ -49,8 +49,6 @@ Conforme mencionado anteriormente nesse documento, os parâmetros de configuraç
 
 ![image](https://user-images.githubusercontent.com/79027384/162598164-8f1bd69a-6655-4c2f-b59a-7965824c7abf.png)
 
-![image](https://user-images.githubusercontent.com/79027384/162646491-902cc11a-067e-493d-a87e-cca472b9fe67.png)
-
 Com o entity Framework, a criação das entidades do banco é feita através de comandos, usando o console do NuGet coforme imagem:
 ![image](https://user-images.githubusercontent.com/79027384/162646558-2a2bc1ff-9e0f-4348-9ddd-dc22a7872eec.png)
 
