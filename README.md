@@ -25,7 +25,7 @@ Após a instalação do banco de dados, o mesmo tem por padrão o database _post
 
 Em Models se encontra as classes de entidades de relacionamento, contendo 3 classes que serão inseridas ao banco e uma classe abstrata (Pessoa) para ser usada nas heranças das demais classes.
 
-![image](https://user-images.githubusercontent.com/79027384/162598050-cdd430a6-0a7b-4786-b5f2-7bc2b7548e0f.png)
+![image](https://user-images.githubusercontent.com/79027384/173960098-1b77e977-ea7d-4a75-bb18-042c6ed7e6bd.png)
 
 Para uso do EF Core, faz se necessário o uso dos pacotes do EF Core via NuGet. Os pacotes necessários já estão inclusos no projeto na versão 5.0.0, porém pode se usar outras versões.
 
