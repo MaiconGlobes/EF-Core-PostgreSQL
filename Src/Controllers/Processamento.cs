@@ -7,10 +7,6 @@ namespace EF_Core_Postgre.Src.Controllers
       private static Processamento FInstancia;
       private static readonly byte FOpcoesTeclado;
 
-      /// <summary>
-      /// Méododo estático p/ instanciação da classe com Design Pattern Singleton.
-      /// </summary>
-      /// <returns>Instância da classe</returns>
       public static Processamento Instancia()
       {
          if (FInstancia == null)
@@ -19,9 +15,6 @@ namespace EF_Core_Postgre.Src.Controllers
          return FInstancia;
       }
 
-      /// <summary>
-      /// Método p/ inserir registros de novos CLientes
-      /// </summary>
       public void Executar()
       {
          do
@@ -84,7 +77,13 @@ namespace EF_Core_Postgre.Src.Controllers
             switch (FOpcoesTeclado)
             {
                case 1:
-
+                  PedidoController.Instancia().InserirPedido();
+                  break;
+               case 2:
+                  PedidoController.Instancia().ListarPedidos();
+                  break;
+               case 3:
+                  PedidoController.Instancia().DeletarPedidos();
                   break;
                case 0:
                   Console.Clear();
